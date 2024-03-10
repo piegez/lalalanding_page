@@ -1,0 +1,19 @@
+.onde-assistir {
+    padding: 30px;
+    text-align: center;
+    &__container {
+
+        &__list {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            align-items: center;
+
+            &__item {
+                margin-left: 20px;
+            }
+        }
+
+    }
+}

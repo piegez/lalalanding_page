@@ -1,0 +1,40 @@
+@use 'variaveis';
+
+.header {
+    top: 0;
+    left: 0;
+
+    li a {
+        color: variaveis.$corBranca;
+        padding: 8px;
+        &:hover {
+            background-color: rgba(variaveis.$roxoClaro, 50%);
+            border-radius: 4px;
+        }
+    }
+
+    &__conteudo {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+        align-items: center;
+
+        img {
+            padding: 10px;
+            height: 70px;
+        }
+
+        &__nav {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            letter-spacing: 1px;
+
+            li {
+                padding-right: 20px;
+                
+            }
+        }
+    }
+}

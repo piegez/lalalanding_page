@@ -1,0 +1,14 @@
+.abertura {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+
+    &__trailer {
+        
+        &__sinopse {
+            padding-left: 20px;
+        }
+    }
+}

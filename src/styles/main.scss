@@ -1,0 +1,68 @@
+@use 'header';
+@use 'variaveis';
+@use'abertura';
+@use 'premiacoes';
+@use 'elenco';
+@use 'onde_assistir';
+@use 'footer';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Coolvetica, sans-serif;
+    font-size: 20px;
+
+    li a {
+        text-decoration: none;
+    }
+
+}
+
+@font-face {
+    font-family: Philosopher;
+    src: url(../../fonts/Philosopher-Regular.ttf);
+}
+
+@font-face {
+    font-family: Coolvetica;
+    src: url(../../fonts/Louis\ George\ Cafe.ttf);
+}
+
+.header {
+    background-color: variaveis.$preto;
+    color: variaveis.$corBranca;
+
+}
+
+.abertura, .elenco {
+    background-color: variaveis.$corBranca;
+    color: variaveis.$roxoEscuro;
+}
+
+.premiacoes {
+    background-color: variaveis.$azulEscuro;
+    color: variaveis.$corBranca;
+}
+
+.onde-assistir {
+    background-color: variaveis.$roxoEscuro;
+    color: variaveis.$corBranca;
+}
+
+.footer {
+    background-color: variaveis.$amarelo;
+    color: variaveis.$roxoEscuro;
+}
+
+
+.title {
+    font-family: Philosopher;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.title-medium {
+    text-transform: uppercase;
+}
