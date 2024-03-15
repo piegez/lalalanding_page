@@ -22,6 +22,15 @@
             margin-bottom: 10px;
         }
 
+        &__item {
+            img {
+                width:  200px;
+                height: 270px;
+                background-size: cover;
+                border-radius: 15%;
+            }
+        }
+
     }
 
     &__tabs {

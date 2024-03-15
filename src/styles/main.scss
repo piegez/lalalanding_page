@@ -5,6 +5,7 @@
 @use 'elenco';
 @use 'onde_assistir';
 @use 'footer';
+@use 'musical';
 
 * {
     margin: 0;
@@ -36,12 +37,12 @@
 
 }
 
-.abertura, .elenco {
+.abertura, .premiacoes {
     background-color: variaveis.$corBranca;
     color: variaveis.$roxoEscuro;
 }
 
-.premiacoes {
+.elenco {
     background-color: variaveis.$azulEscuro;
     color: variaveis.$corBranca;
 }

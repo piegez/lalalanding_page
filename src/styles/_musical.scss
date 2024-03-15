@@ -1,0 +1,16 @@
+@use 'variaveis';
+
+.musical {
+    padding: 30px;
+    background-color: variaveis.$roxoClaro;
+    color: variaveis.$corBranca;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+}
