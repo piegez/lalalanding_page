@@ -62,8 +62,21 @@
     font-family: Philosopher;
     font-size: 40px;
     letter-spacing: 2px;
+
+    @media only screen and (max-width: 768px) {
+        font-size: 24px;
+    }
 }
 
 .title-medium {
     text-transform: uppercase;
+    @media only screen and (max-width: 768px) {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+        p, a {
+            font-size: 14px;
+        }
 }

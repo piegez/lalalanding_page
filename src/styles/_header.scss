@@ -38,3 +38,28 @@
         }
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .header {
+        position: relative; 
+        
+        &__conteudo {
+            flex-direction: column; 
+            padding: 10px; 
+
+            img {
+                margin-bottom: 10px; 
+                height: 70px; 
+            }
+
+            &__nav {
+                flex-direction: column; 
+                text-align: center; 
+                
+                li {
+                    padding: 8px 0; 
+                }
+            }
+        }
+    }
+}

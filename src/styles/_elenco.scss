@@ -10,6 +10,10 @@
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         margin: 20px;
 
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr;
+        }
+
         .imgtext {
             color: variaveis.$corBranca;
             opacity: 0;

@@ -53,3 +53,58 @@
     }
 }
 }
+
+@media only screen and (max-width: 768px) {
+    .premiacoes {
+        padding: 20px;
+        text-align: center;
+    
+        &__list {
+            margin-top: 20px;
+            display: none;
+            grid-template-columns: 1fr;
+            gap: 16px; 
+            &--is-active {
+                display: grid;
+            }
+    
+            p {
+                margin-top: 10px;
+
+            }
+    
+            img {
+                margin-bottom: 10px;
+                max-width: 200px; 
+            }
+    
+            &__item {
+                img {
+                    width: 100%; 
+                    height: auto; 
+                    border-radius: 15px; 
+                }
+            }
+        }
+    
+        &__tabs {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+    
+            &__button {
+                font-size: 16px; 
+                padding: 10px;
+                margin: 5px;
+                cursor: pointer;
+                border-radius: 15px;
+                border-style: none;
+    
+                &--is-active {
+                    border: 3px dashed variaveis.$roxoEscuro;
+                    background-color: variaveis.$amarelo;
+                }
+            }
+        }
+    }
+}

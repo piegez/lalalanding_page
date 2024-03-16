@@ -23,3 +23,33 @@
 
     }
 }
+
+@media only screen and (max-width:768px) {
+    .onde-assistir {
+        padding: 20px;
+        text-align: center;
+        
+        &__container {
+            
+            &__list {
+                margin-top: 10px;
+                display: flex;
+                justify-content: center;
+                padding: 10px;
+                align-items: center;
+                flex-wrap: wrap;
+    
+                &__item {
+                    margin-left: 20px;
+                    margin-bottom: 10px;
+    
+                    img {
+                        width: 30px;
+                        height: 30px; 
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+    }
+}
